@@ -1,10 +1,9 @@
 <template>
-    <h1 className="">
-      Hello world!
-    </h1>
-    
+    <IndecisionView />
+
 </template>
 
 <script lang="ts" setup>
+import IndecisionView from '@/views/IndecisionView.vue';
 
 </script>
