@@ -14,12 +14,6 @@
 <script lang="ts" setup>
 import { useCounter } from '@/composables/useCounter';
 
-// Definición de props
-// interface Props {
-//     hulk: number;
-// }
-// const props = defineProps<Props>();
-
 const { counter, squareCounter } = useCounter(10);
 
 
